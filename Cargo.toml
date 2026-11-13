@@ -1,0 +1,9 @@
+[package]
+name = "pdrop"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+if-addrs = "0.15.0"
+ratatui = "0.30.2"
+socket2 = { version = "0.6.5", features = ["all"] }
